@@ -1,0 +1,39 @@
+{
+  "lang": [
+    "en-US",
+    "pt-BR"
+  ],
+  "types": {
+    "temp": false,
+    "style": "Alterações que não afetam o significado do código (espaço em branco, formatação, ponto e vírgula, etc).",
+    "perf": "Uma alteração de código que melhora o desempenho.",
+    "ci": "Alterações nos arquivos e scripts de configuração do CI.",
+    "build": "Alterações que afetam o sistema de compilação ou dependências externas (escopos de exemplo: gulp, broccoli, npm).",
+    "chore": "Mudanças no processo de construção ou ferramentas auxiliares e bibliotecas, como geração de documentação.",
+    "test": "Adicionando testes ausentes ou corrigindo os existentes.",
+    "refactor": "Refatoração no código",
+    "docs": "Mudança na documentação",
+    "feat": "Adicionando um novo recurso",
+    "fix": "Correção de bug"
+  },
+  "min-len": 20,
+  "max-len": 50,
+  "example": "feat[30450]: adicionado nova funcionalidade de captura de foto",
+  "scopeDescriptions": [
+    "Não é necessário"
+  ],
+  "invalidScopeDescriptions": [
+    "ユーザーが知覚できる新機能"
+  ],
+  "subjectDescriptions": [
+    "Número do ticket que originou a mudança",
+    "Breve resumo das mudanças.",
+    "Sem letra maíscula, com exceção a nome de classes.",
+    "Sem ponto final."
+  ],
+  "invalidSubjectDescriptions": [
+    "ユーザーが知覚できる新機能"
+  ],
+  "showInvalidHeader": false,
+  "debug": false
+}
