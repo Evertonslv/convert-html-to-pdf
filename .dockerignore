@@ -1,6 +1,9 @@
-.git/
-.idea/
-dist/
-node_modules/
+.git
+.idea
+.env
+dist
+node_modules
 docker-compose.yml
 Dockerfile
+dist
+coverage

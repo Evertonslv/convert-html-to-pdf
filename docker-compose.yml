@@ -3,7 +3,6 @@ services:
   convert-html-pdf:
     container_name: convert-html-pdf-container
     build: .
-    command: sh -c "npm install && npm run debug"
     volumes:
       - ./:/usr/convert-html-pdf/
     ports:

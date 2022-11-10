@@ -1,6 +1,6 @@
-import ExpressAdapter from "./infra/http/ExpressAdapter";
-import ConvertController from "./infra/controller/ConvertController";
-import ConvertPuppeteerAdapter from "./application/ConvertPuppeteerAdapter";
+import ConvertPuppeteerAdapter from '@/application/convert-puppeteer-adapter';
+import ConvertController from '@/infra/controller/convert-controller';
+import ExpressAdapter from '@/infra/http/express-adapter';
 
 const http = new ExpressAdapter();
 const convert = new ConvertPuppeteerAdapter();
